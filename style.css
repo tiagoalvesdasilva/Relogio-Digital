@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: linear-gradient(60deg, #00d4ff, #094079);
+    height: 100vh;
+    
+}
+.relogio{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    width: 500px;
+    text-align: center;
+    padding: 40px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 1px 21px -6px black;
+    background: transparent;
+}
